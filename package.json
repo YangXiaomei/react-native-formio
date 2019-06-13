@@ -26,12 +26,13 @@
   },
   "homepage": "https://github.com/formio/react-native-formio#readme",
   "dependencies": {
+    "buffer": "^5.2.1",
     "eventemitter2": "^5.0.1",
     "json-logic-js": "^1.2.2",
     "lodash": "^4.15.0",
     "moment": "^2.22.2",
     "prop-types": "^15.6.1",
-    "react-native-device-info": "^0.22.3",
+    "react-native-device-info": "^2.1.1",
     "react-native-elements": "^0.19.1",
     "react-native-htmlview": "^0.13.0",
     "react-native-material-dropdown": "^0.11.1",
@@ -41,7 +42,7 @@
     "react-native-signature-capture": "^0.4.9",
     "react-native-simple-radio-button": "^2.7.2",
     "react-native-vector-icons": "^4.6.0",
-    "react-text-mask-hoc": "^0.10.6",
+    "react-text-mask-hoc": "^0.11.0",
     "rn-tooltip": "^1.0.1"
   },
   "devDependencies": {

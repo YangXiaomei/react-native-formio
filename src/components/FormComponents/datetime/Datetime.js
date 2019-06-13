@@ -16,6 +16,10 @@ export default class Datetime extends MultiComponent {
     this.onConfirm = this.onConfirm.bind(this);
     this.togglePicker = this.togglePicker.bind(this);
     this.getSingleElement = this.getSingleElement.bind(this);
+
+    this.state = {
+      value: null,
+    };
   }
 
   getInitialValue(value) {

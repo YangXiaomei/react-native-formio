@@ -18,6 +18,9 @@ export default class Signature extends ValueComponent {
     this.onEnd = this.onEnd.bind(this);
     this.getElements = this.getElements.bind(this);
     this.signature = null;
+    this.state = {
+      value: null,
+    };
   }
 
   componentDidMount() {
